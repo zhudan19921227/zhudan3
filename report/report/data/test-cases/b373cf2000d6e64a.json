@@ -1,0 +1,155 @@
+{
+  "uid" : "b373cf2000d6e64a",
+  "name" : "test_login[{\"user\": \"xxx\", \"qq\": \"xxx\", \"age\": \"ccc\", \"name\": \"vv\"}-{\"code\": 0, \"re\": \"dd\"}]",
+  "fullName" : "test.testLogin#test_login",
+  "historyId" : "f8381656152f071467087d488849d8d3",
+  "time" : {
+    "start" : 1637829000871,
+    "stop" : 1637829000871,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: api_login() missing 1 required positional argument: 'inData'",
+  "statusTrace" : "inData = '{\"user\": \"xxx\", \"qq\": \"xxx\", \"age\": \"ccc\", \"name\": \"vv\"}'\nrep = '{\"code\": 0, \"re\": \"dd\"}'\n\n    @allure.feature(\"登入模块\")\n    @allure.story('登入测试用例')\n    @allure.severity('critical')\n    @pytest.mark.login(order=1)\n    @pytest.mark.parametrize('inData,rep',getData())\n    def test_login(inData,rep):\n>       res = Login.api_login(inData,getSession=False)\nE       TypeError: api_login() missing 1 required positional argument: 'inData'\n\ntestLogin.py:14: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登入模块"
+  }, {
+    "name" : "story",
+    "value" : "登入测试用例"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "testLogin"
+  }, {
+    "name" : "host",
+    "value" : "PC-201712281019"
+  }, {
+    "name" : "thread",
+    "value" : "25728-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.testLogin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "inData",
+    "value" : "'{\"user\": \"xxx\", \"qq\": \"xxx\", \"age\": \"ccc\", \"name\": \"vv\"}'"
+  }, {
+    "name" : "rep",
+    "value" : "'{\"code\": 0, \"re\": \"dd\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "b1177e470a76d50e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: api_login() missing 1 required positional argument: 'inData'",
+      "time" : {
+        "start" : 1637651737415,
+        "stop" : 1637651737416,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c316eba243bc10b6",
+      "status" : "broken",
+      "statusDetails" : "TypeError: api_login() missing 1 required positional argument: 'inData'",
+      "time" : {
+        "start" : 1637651601622,
+        "stop" : 1637651601622,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "76308338d4ad0bd",
+      "status" : "broken",
+      "statusDetails" : "TypeError: api_login() missing 1 required positional argument: 'inData'",
+      "time" : {
+        "start" : 1637651513078,
+        "stop" : 1637651513078,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "468899fed6d788b3",
+      "status" : "broken",
+      "statusDetails" : "TypeError: api_login() missing 1 required positional argument: 'inData'",
+      "time" : {
+        "start" : 1637651358901,
+        "stop" : 1637651358901,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "426121b68d12283c",
+      "status" : "broken",
+      "statusDetails" : "TypeError: api_login() missing 1 required positional argument: 'inData'",
+      "time" : {
+        "start" : 1637651282157,
+        "stop" : 1637651282157,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c929e78fababd9af",
+      "status" : "broken",
+      "statusDetails" : "TypeError: api_login() missing 1 required positional argument: 'inData'",
+      "time" : {
+        "start" : 1637650848055,
+        "stop" : 1637650848055,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f4582f9e43290d59",
+      "status" : "broken",
+      "statusDetails" : "TypeError: api_login() missing 1 required positional argument: 'inData'",
+      "time" : {
+        "start" : 1637650773990,
+        "stop" : 1637650773990,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a341817e418cf7ae",
+      "status" : "broken",
+      "statusDetails" : "TypeError: api_login() missing 1 required positional argument: 'inData'",
+      "time" : {
+        "start" : 1637650477870,
+        "stop" : 1637650477871,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "193df24495cf7116",
+      "status" : "broken",
+      "statusDetails" : "TypeError: api_login() missing 1 required positional argument: 'inData'",
+      "time" : {
+        "start" : 1637650305131,
+        "stop" : 1637650305131,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b373cf2000d6e64a.json",
+  "parameterValues" : [ "'{\"user\": \"xxx\", \"qq\": \"xxx\", \"age\": \"ccc\", \"name\": \"vv\"}'", "'{\"code\": 0, \"re\": \"dd\"}'" ]
+}

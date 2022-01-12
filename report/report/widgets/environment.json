@@ -1,0 +1,16 @@
+[ {
+  "values" : [ "Firefox" ],
+  "name" : "Brower"
+}, {
+  "values" : [ "91.0.1" ],
+  "name" : "Brower.Version"
+}, {
+  "values" : [ "tset" ],
+  "name" : "Stand"
+}, {
+  "values" : [ "127.0.0.1:8080" ],
+  "name" : "Apiuir"
+}, {
+  "values" : [ "3.6.5" ],
+  "name" : "python.version"
+} ]

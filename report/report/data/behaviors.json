@@ -1,0 +1,98 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登入模块",
+    "children" : [ {
+      "name" : "登入测试用例",
+      "children" : [ {
+        "name" : "test_login[{\"user\": \"xxx\", \"qq\": \"xxx\", \"age\": \"ccc\", \"name\": \"vv\"}-{\"code\": 0, \"re\": \"dd\"}]",
+        "uid" : "b373cf2000d6e64a",
+        "parentUid" : "a62afed614061167eb32c39a119bf6af",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637829000871,
+          "stop" : 1637829000871,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"user\": \"xxx\", \"qq\": \"xxx\", \"age\": \"ccc\", \"name\": \"vv\"}'", "'{\"code\": 0, \"re\": \"dd\"}'" ]
+      } ],
+      "uid" : "a62afed614061167eb32c39a119bf6af"
+    } ],
+    "uid" : "483b555f4817373bd8596318c0952a36"
+  }, {
+    "name" : "课程模块",
+    "children" : [ {
+      "name" : "增加课程",
+      "children" : [ {
+        "name" : "test_add_course",
+        "uid" : "ab45ce4b8cfc0751",
+        "parentUid" : "09e0bcb228b8e19d0731290bb288dab9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637829020207,
+          "stop" : 1637829020207,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "09e0bcb228b8e19d0731290bb288dab9"
+    }, {
+      "name" : "展示课程",
+      "children" : [ {
+        "name" : "test_list_course",
+        "uid" : "a6dd851a51e759a2",
+        "parentUid" : "09cd979f0833569acb3071d545241877",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637829020802,
+          "stop" : 1637829020802,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "09cd979f0833569acb3071d545241877"
+    }, {
+      "name" : "删除课程",
+      "children" : [ {
+        "name" : "test_delete_coures",
+        "uid" : "ef51df6a3a490bd4",
+        "parentUid" : "b0c8924eb49f1560e73840c1dcc02bb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637829020818,
+          "stop" : 1637829020818,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b0c8924eb49f1560e73840c1dcc02bb2"
+    }, {
+      "name" : "修改课程",
+      "children" : [ {
+        "name" : "test_update_course",
+        "uid" : "a5cf2ebb151e45a3",
+        "parentUid" : "f699fc2762f897cf9a052fd8e122bdb4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637829020972,
+          "stop" : 1637829020972,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f699fc2762f897cf9a052fd8e122bdb4"
+    } ],
+    "uid" : "41526c19c7a56b0d5e9aa69b0d7df2a6"
+  } ]
+}

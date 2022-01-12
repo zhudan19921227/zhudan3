@@ -1,0 +1,86 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test",
+    "children" : [ {
+      "name" : "testLogin",
+      "children" : [ {
+        "name" : "test_login[{\"user\": \"xxx\", \"qq\": \"xxx\", \"age\": \"ccc\", \"name\": \"vv\"}-{\"code\": 0, \"re\": \"dd\"}]",
+        "uid" : "b373cf2000d6e64a",
+        "parentUid" : "77ae7adbea7e0dd865f6d853dd4b1d19",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637829000871,
+          "stop" : 1637829000871,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"user\": \"xxx\", \"qq\": \"xxx\", \"age\": \"ccc\", \"name\": \"vv\"}'", "'{\"code\": 0, \"re\": \"dd\"}'" ]
+      } ],
+      "uid" : "77ae7adbea7e0dd865f6d853dd4b1d19"
+    }, {
+      "name" : "testcourse",
+      "children" : [ {
+        "name" : "TestCourse",
+        "children" : [ {
+          "name" : "test_add_course",
+          "uid" : "ab45ce4b8cfc0751",
+          "parentUid" : "031d04feca120be013f7b9e43042be2d",
+          "status" : "broken",
+          "time" : {
+            "start" : 1637829020207,
+            "stop" : 1637829020207,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_list_course",
+          "uid" : "a6dd851a51e759a2",
+          "parentUid" : "031d04feca120be013f7b9e43042be2d",
+          "status" : "broken",
+          "time" : {
+            "start" : 1637829020802,
+            "stop" : 1637829020802,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_delete_coures",
+          "uid" : "ef51df6a3a490bd4",
+          "parentUid" : "031d04feca120be013f7b9e43042be2d",
+          "status" : "broken",
+          "time" : {
+            "start" : 1637829020818,
+            "stop" : 1637829020818,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_update_course",
+          "uid" : "a5cf2ebb151e45a3",
+          "parentUid" : "031d04feca120be013f7b9e43042be2d",
+          "status" : "broken",
+          "time" : {
+            "start" : 1637829020972,
+            "stop" : 1637829020972,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "031d04feca120be013f7b9e43042be2d"
+      } ],
+      "uid" : "ddb4eac0d7bdeb1bcfe2351e4264cd0c"
+    } ],
+    "uid" : "ff2b04dbb9c449a4d40723f51d841925"
+  } ]
+}

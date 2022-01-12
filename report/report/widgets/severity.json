@@ -1,0 +1,51 @@
+[ {
+  "uid" : "a6dd851a51e759a2",
+  "name" : "test_list_course",
+  "time" : {
+    "start" : 1637829020802,
+    "stop" : 1637829020802,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ab45ce4b8cfc0751",
+  "name" : "test_add_course",
+  "time" : {
+    "start" : 1637829020207,
+    "stop" : 1637829020207,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b373cf2000d6e64a",
+  "name" : "test_login[{\"user\": \"xxx\", \"qq\": \"xxx\", \"age\": \"ccc\", \"name\": \"vv\"}-{\"code\": 0, \"re\": \"dd\"}]",
+  "time" : {
+    "start" : 1637829000871,
+    "stop" : 1637829000871,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "ef51df6a3a490bd4",
+  "name" : "test_delete_coures",
+  "time" : {
+    "start" : 1637829020818,
+    "stop" : 1637829020818,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a5cf2ebb151e45a3",
+  "name" : "test_update_course",
+  "time" : {
+    "start" : 1637829020972,
+    "stop" : 1637829020972,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
